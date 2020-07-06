@@ -1,6 +1,9 @@
 language: java
 sudo: false # faster builds
 
+arch:
+  - arm64
+  - amd64
 jdk:
   - openjdk11
   - openjdk8
